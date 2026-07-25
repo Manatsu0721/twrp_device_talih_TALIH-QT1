@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_TALIH-QT1.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_TALIH-QT1-user \
-    omni_TALIH-QT1-userdebug \
-    omni_TALIH-QT1-eng
+    omni_TALIH_QT1-user \
+    omni_TALIH_QT1-userdebug \
+    omni_TALIH_QT1-eng
