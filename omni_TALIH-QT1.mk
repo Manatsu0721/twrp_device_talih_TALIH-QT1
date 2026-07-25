@@ -16,7 +16,7 @@ $(call inherit-product, device/talih/TALIH-QT1/device.mk)
 
 PRODUCT_DEVICE := TALIH-QT1
 PRODUCT_NAME := omni_TALIH-QT1
-PRODUCT_BRAND := TALIH
+PRODUCT_BRAND := talih
 PRODUCT_MODEL := TALIH-QT1
 PRODUCT_MANUFACTURER := talih
 
