@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/talih/TALIH-QT1
+DEVICE_PATH := device/talih/TALIH_QT1
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -56,8 +56,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := TALIH-QT1_defconfig
-TARGET_KERNEL_SOURCE := kernel/talih/TALIH-QT1
+TARGET_KERNEL_CONFIG := TALIH_QT1_defconfig
+TARGET_KERNEL_SOURCE := kernel/talih/TALIH_QT1
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

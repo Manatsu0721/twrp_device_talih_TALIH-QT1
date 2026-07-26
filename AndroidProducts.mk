@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_TALIH-QT1.mk
+    $(LOCAL_DIR)/omni_TALIH_QT1.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_TALIH_QT1-user \
